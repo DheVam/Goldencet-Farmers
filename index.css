@@ -23,7 +23,7 @@ ul{
 }
 
 li{
-    font-family: DelaGothic;
+    font-family: sans-serif;    
     font-size: 18px;
     font-weight:lighter;
 }
@@ -35,7 +35,7 @@ a{
 }
 
 .maintext{
-    font-family: DelaGothic;
+    font-family: monospace;
     font-size: 70px;
     color: #232323;
 }
