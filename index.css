@@ -1,0 +1,53 @@
+@font-face {
+    font-family: DelaGothic;
+    src: url("./assets/Fonts/DelaGothicOne-Regular.ttf");
+}
+
+
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #CFC6B7;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    grid-gap: 30px;
+}
+
+li{
+    font-family: DelaGothic;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.maintext{
+    font-family: DelaGothic;
+    font-size: 70px;
+    color: #232323;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.heroContent{
+    width: 50%
+}
