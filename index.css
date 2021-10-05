@@ -1,6 +1,10 @@
 @font-face {
-    font-family: DelaGothic;
-    src: url("./assets/Fonts/DelaGothicOne-Regular.ttf");
+    font-family: FrankRuhal;
+    src: url("./assets/Fonts/FrankRuhal/FrankRuhlLibre-Regular.ttf");
+}
+@font-face {
+    font-family: Nunito;
+    src: url("./assets/Fonts/Nunito/Nunito-Regular.ttf");
 }
 
 
@@ -19,11 +23,11 @@ body{
 ul{
     display: flex;
     list-style: none;
-    grid-gap: 30px;
+    grid-gap: 40px;
 }
 
 li{
-    font-family: sans-serif;    
+    font-family: FrankRuhal;    
     font-size: 18px;
     font-weight:lighter;
 }
@@ -32,12 +36,31 @@ a{
     text-decoration: none;
     color: black;
     cursor: pointer;
+    
+}
+
+a:active {
+    color: #fff;
+}
+
+a:hover {
+    color: aliceblue;
 }
 
 .maintext{
-    font-family: monospace;
+    font-family: Nunito;
     font-size: 70px;
     color: #232323;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.subText{
+    font-family: Nunito;
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+
 }
 
 .hero{
@@ -50,4 +73,22 @@ a{
 
 .heroContent{
     width: 50%
+}
+
+button {
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.heroButtons{
+    margin-top: 30px;
 }
